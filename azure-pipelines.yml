@@ -12,7 +12,7 @@ steps:
   inputs:
     azureSubscription: 'MSFT Visual Studio(677b9361-696b-426b-a712-976620de9736)'
     appType: 'webAppLinux'
-    appName: 'webappwindows'
+    appName: 'dotnetwebapp'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
 
   
