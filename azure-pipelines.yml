@@ -14,5 +14,8 @@ steps:
     appType: 'webAppLinux'
     appName: 'webappwindows'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
   
-  
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    VirtualApplication: 'dotnetwebapp'
